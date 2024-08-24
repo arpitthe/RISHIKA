@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'cute font', sans-serif, Arial, Helvetica;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffe5e5;
+
+
+}
+
+.container .tenor-gif-embed {
+    max-width: 200px;
+
+}
+
+.container .bta {
+    display: flex;
+    gap: 25px;
+}
+
+.bta a {
+    text-decoration: none;
+    color: #111;
+    background: #fff;
+    padding: 10px 25px;
+    border-radius: 8px;
+    box-shadow: 0.5ren irnm jrem hsl(0, 0%, 0%, 0.3);
+}
+
+
+#teleportButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+
+#teleportButton.disabled {
+    background-color: #9E9E9E; /* Gray */
+    cursor: not-allowed;
+}
